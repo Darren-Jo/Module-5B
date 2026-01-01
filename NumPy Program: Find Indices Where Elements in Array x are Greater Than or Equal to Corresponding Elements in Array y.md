@@ -13,9 +13,24 @@ To write a Python program using **NumPy** that finds the indices where elements 
 5. **Print Indices**: Print the indices where the condition holds true.
 
 ## 🧾 Program
+```
+import numpy as np 
 
-Add code here
+x=eval(input()) 
+
+y=eval(input()) 
+
+l1=np.array(x) 
+
+l2=np.array(y) 
+
+print(np.where(l1>l2)) 
+
+print(np.where(l1==l2))
+```
 
 ## Output
+<img width="576" height="156" alt="image" src="https://github.com/user-attachments/assets/028ba714-ea38-40dd-9de0-73b392572abe" />
 
 ## Result
+The  result is verified.
